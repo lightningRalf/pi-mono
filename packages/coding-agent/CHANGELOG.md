@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed clipboard image paste on Wayland/WSLg when the clipboard provides `image/bmp` by converting to PNG before writing the temp file.
+
 ## [0.49.0] - 2026-01-17
 
 ### Added
